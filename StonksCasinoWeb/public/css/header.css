@@ -1,0 +1,25 @@
+header{
+    background-color: #276F2E;
+
+
+}
+header h1{
+    font-size: 50px;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+.btn-groen{
+    background-color: #00911b;
+    color: white;
+}
+.btn-login{
+    text-align: center;
+    margin: 5px;
+    width: 100px;
+    font-size: 16px;
+}
+.div-header{
+    margin-right: 10px;    
+    
+}
