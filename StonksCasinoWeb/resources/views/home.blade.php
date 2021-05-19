@@ -1,9 +1,9 @@
 @extends('layouts.app')
 
-@section('title', 'StonksCasino')
-
+@section('titel', 'StonksCasino')
+@section('nav-Home', 'active')
 @section('content')
 
-    
+
 @endsection
     
