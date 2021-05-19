@@ -9,12 +9,14 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link rel="stylesheet" href=" {{ URL::asset('css/header.css') }}">
     <link rel="stylesheet" href=" {{ URL::asset('css/nav.css') }}">
+    <link rel="stylesheet" href=" {{ URL::asset('css/footer.css') }}">
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
     @include('layouts.header')
+    @include('layouts.nav')
     <div class="container">
-        @include('layouts.nav')
-        @yield('/content')
+    
+        @yield('content')
     </div>
     @include('layouts.footer')
 </body>

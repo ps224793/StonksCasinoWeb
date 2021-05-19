@@ -1,3 +1,7 @@
-nav{
-    background-color: #276F2E;
+nav a{
+   font-size: 18px;
+}
+a.navbar, a.navbar:link, a.navbar:visited, a.navbar:hover, a.navbar:focus, a.navbar:active{
+    color: white;
+    font-size: 18px;
 }
