@@ -1,0 +1,25 @@
+.card-home{
+   height: 54vh;
+   background-color: #DDE2CD;
+   margin: 5px;
+}
+.card-home img{
+   width: 60%;
+   max-width: 230px;
+   margin-top: 20px;
+
+}
+.btn-download{
+   margin-top: 40px;
+}
+.card-layout{
+   margin-top: 33px !important;
+   
+}
+.card-margin{
+   margin-bottom: 33px;
+   
+}
+.titel-card{
+   font-size: 18px;
+}
