@@ -29,8 +29,8 @@
                 </div>
                 <div class="footer-info">
                     <ul class="footer">
-                        <li class="footer">KVK: 41092539</li>
-                        <li class="footer">BTW: NL001841156B82</li>
+                        <li class="footer">KVK: 44521839</li>
+                        <li class="footer">BTW: NL001426759B82</li>
                     </ul>    
                 </div>             
             </div>

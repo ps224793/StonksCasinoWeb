@@ -10,6 +10,7 @@
     <link rel="stylesheet" href=" {{ URL::asset('css/header.css') }}">
     <link rel="stylesheet" href=" {{ URL::asset('css/nav.css') }}">
     <link rel="stylesheet" href=" {{ URL::asset('css/footer.css') }}">
+    <link rel="stylesheet" href=" {{ URL::asset('css/home.css') }}">
 
 </head>
 <body class="d-flex flex-column min-vh-100">
