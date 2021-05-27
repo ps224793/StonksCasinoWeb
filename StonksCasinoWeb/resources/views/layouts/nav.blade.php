@@ -6,19 +6,19 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-            <a class="nav-link @yield('nav-Home')" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link @yield('nav-Home')" href="/">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link @yield('nav-Download')" href="#">Download</a>
+          <a class="nav-link @yield('nav-Download')" href="/">Download</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link @yield('nav-Winkel') " href="#">Winkel</a>
+          <a class="nav-link @yield('nav-Winkel') " href="/">Winkel</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link @yield('nav-Bibliotheek')" href="#">Bibliotheek</a>
+          <a class="nav-link @yield('nav-Bibliotheek')" href="/">Bibliotheek</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link @yield('nav-Overons')" href="#">Over ons</a>
+          <a class="nav-link @yield('nav-Overons')" href="/">Over ons</a>
         </li>
       </ul>
     </div>
