@@ -8,5 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class Account extends Model
 {
     use HasFactory;
-    protected $table = "accounts";
+    protected $guarded = [];
+    public $timestamps = false;
 }

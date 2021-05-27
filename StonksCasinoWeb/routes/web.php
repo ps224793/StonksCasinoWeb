@@ -17,5 +17,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
+Route::get('/account-info', function () {
+    return view('accounts.info');
+});
 
 Route::resource('accounts', AccountController::class);

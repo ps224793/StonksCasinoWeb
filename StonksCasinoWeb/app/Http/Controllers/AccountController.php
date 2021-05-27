@@ -25,7 +25,7 @@ class AccountController extends Controller
      */
     public function create()
     {
-        //
+        return view('accounts.create');
     }
 
     /**
@@ -36,7 +36,22 @@ class AccountController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'firstname'=>'required',
+            'lastname'=>'required',
+            'username'=>'required',
+            'email'=>'required',
+            'password'=>'required',
+            'dateofbirth'=>'required',            
+        ]);
+
+        $request['password'] = bcrypt($request['password']) ;
+        $request->request->add(['token' => '50']);
+        $request->request->add(['active' => '1']);
+        Account::create($request->all(),);
+
+        $_SESSION["login"] = true;
+        return view('home');
     }
 
     /**

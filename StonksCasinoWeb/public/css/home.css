@@ -23,3 +23,37 @@
 .titel-card{
    font-size: 18px;
 }
+.card-registreer{
+   width:  100px;
+   background-color: #DDE2CD;
+   margin: 5px;
+}
+.width-login{
+   width: 60%;
+}
+@media (max-width: 767.98px) { 
+   .width-login{
+      width: 90%;
+   }
+ }
+ .Titelbar-accounts{
+    background-color: #276F2E;
+   color: white;
+ }
+ .paymend-method{
+    border-bottom: 3px solid #276F2E;
+ }
+ .img-payment img{
+    height: 50px;
+ }
+ .account-info p{
+    font-size: 1.5em;
+    
+ }
+ .account-info label{
+   font-size: 1.5em;
+   
+}
+ .account-logo{
+    width: 170px;
+ }
